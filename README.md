@@ -3,7 +3,11 @@
 # IMFSE-practical UNIT 5 - WildFire Behavior Modelling 
 
 ## General Objectives
-Using a fire that occured in el pont de Vilomara in on the 17 of July 2022, we are going to several 
+Using a fire that occured in el pont de Vilomara in on the 17 of July 2022, we are going to look at 
+- fire emission estimate like the one provided in Copernicus.
+- fire propagation as modeled with fire spread model like Farsite
+- and finally fire-atmosphere couple model like the FDS-Level set model.
+  
 
 ## Technical Requirement:
 Several excercises of the practical are proposed via jupyter notebook, a python interactive environment.
