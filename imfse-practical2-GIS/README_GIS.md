@@ -10,6 +10,10 @@
 - get sentinel2 data from the copernicus server.
 - sow exemple of image plotting with python (a notebook **TO COME**)
 
+### REquirements: 
+- QGIS installed
+
+
 Data for this exercise is available [here](https://www.dropbox.com/scl/fi/nbmn7b88o7in95810xx8s/S2A_MSIL2A_20220719T105041_N0400_R051_T31TCG_20220719T170208_clipped_noBlackLine.tif?rlkey=ir3yb9rjyswoz2lf3x1p4ybdl&st=nevqv4qa&dl=0)
 
 ### QGIS First Use

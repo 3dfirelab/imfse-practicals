@@ -10,6 +10,12 @@
 - understant the limitation of FDS-LS
 - run simple case showing the advantage of fire-atmospher coupled system
 
+### Requirements: 
+- FDS
+- QGIS
+
+### Example to setup FDS-Level Set
+
 To run FDS-LS for el pont de vilomara fire, you need to fo through tree steps: 
 1. convert lcp farsite file
 2. create fds config file with qgis2fds plugin
@@ -51,7 +57,9 @@ If you use the configuration file you create with the qgis plugin, you need to u
 In the FDS run, see the difference between model LS=1 and LS=4.
 
 To run FDS on andromeda, as you are sharing the same node with others, it is preferable to submit fds run thourhg the SLURM queue system.
-in the  directory `3-fds_configFile` you have the script `run_fds.sh` that you can use to submit your job to the queue, simply run: 
+
+## 4. Run FDS on andromeda
+In the  directory `3-fds_configFile` you have the script `run_fds.sh` that you can use to submit your job to the queue, simply run: 
 ```
 $ sbatch run_fds.sh
 ```
@@ -64,6 +72,6 @@ output are redirecting to the file `slurm-xxxx.out`
 **TO BE CHANGED** for now moke view need to be run with `/opt/SMV/Build/smokeview/gnu_linux_64/smokeview_linux_64`. Itś very slow.
 
 
-## Question:
-Can you find a situation with a small domain, where wind recirculation might create a different fire spread in `LS=4` and `LS=1`.
+## Questions:
+- Can you find a situation with a small domain, where wind recirculation might create a different fire spread in `LS=4` and `LS=1`.
 

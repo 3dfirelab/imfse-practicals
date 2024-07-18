@@ -11,5 +11,6 @@ this is the material for the first practical on fire emission at atmospheric sca
 - accessing active fire data
 - assess the impact of the fire of el pont de vilomara in the spanish and catalunian fire season emission
 
-
+### Requirements: 
+- see REAMD.md in [root dir](../README.md).
 
