@@ -49,5 +49,6 @@ http://localhost:8888/tree?token=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 Within the jupyter interface you should be able to navigate to the first practical imfse-practical1-Emission and sub directories where wyou will find the notebook.
 
-**Note**:   
-to open .md file, right click and select  `open with` and get `markdown preview`
+## Note:   
+- to open .md file, right click and select  `open with` and get `markdown preview`
+- to kill the jupyter server enter `Ctrl-c` in the terminal where it runs and answer yes to the `[Y/n]` question.
